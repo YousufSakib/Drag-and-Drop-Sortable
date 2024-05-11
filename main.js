@@ -16,6 +16,10 @@
         item.addEventListener("dragend", () => {
             item.classList.remove("dragging");
         });
+
+        // item.addEventListener("click", (e) => {
+        //     console.log(item.offsetTop, e.clientY);
+        // });
     });
 
     const initSortableList = (e) => {
